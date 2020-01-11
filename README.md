@@ -49,5 +49,5 @@ Sizes of the variables are output to demonstrate the number of bytes allocated t
 
 ## Other Notes
  Depending on the application, consider using ESP_EEPROM to save write cycles:
- * https://github.com/jwrw/ESP_EEPROM/blob/master/examples/ESP_EEPROM_Use/ESP_EEPROM_Use.ino
+ * https://github.com/jwrw/ESP_EEPROM
  
