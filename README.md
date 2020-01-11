@@ -10,7 +10,7 @@
 
 ## Example Output
 
-Note that value after "Hello World!" increments after each reset.
+Note that the integer value after "Hello World!" increments after each reset.
 
 ``` 
 Starting
