@@ -8,13 +8,14 @@
  *      https://github.com/esp8266/Arduino/tree/master/libraries/EEPROM
  *      
  * This program reads the existing values in flash, and then writes "Hello World!" 
- * and an incrementing integer value to flash.  Hit reset on ESP8266/NodeMCU
- * 
- * Depending on the application, consider using ESP_EEPROM to save write cycles:
- * https://github.com/jwrw/ESP_EEPROM/blob/master/examples/ESP_EEPROM_Use/ESP_EEPROM_Use.ino
+ * and an incrementing integer value to flash.  Hit reset on ESP8266/NodeMCU to re-read
+ * from flash (currently stored contents) and write a new value to flash.
  * 
  * Tested on:
  * https://www.amazon.com/gp/product/B01IK9GEQG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
+ * 
+ * Depending on the application, consider using ESP_EEPROM to save write cycles:
+ * https://github.com/jwrw/ESP_EEPROM/blob/master/examples/ESP_EEPROM_Use/ESP_EEPROM_Use.ino
  * 
  * W. Newhall (original) 1/2020
  */
